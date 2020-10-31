@@ -27,103 +27,119 @@
 <body>
 
 	<h1>DATOS DEL TIEMPO</h1>
+
+	<div class="main">
+		<section>
+			<div class="select">
+				<select id="selected" onclick="tiempo();">
+					<option value="307297">Barcelona</option>
+					<option value="308526">Madrid</option>
+					<option value="2330265">Sevilla</option>
+					<option value="309382">Bilbao</option>
+					<option value="307720">Badajoz</option>
+					<option value="36300">Santa Cruz de la Sierra</option>
+					<option value="32544">Chuquisaca</option>
+					<option value="33655">La Paz</option>
+					
+				</select>
+			</div>
+			<div class="content primero">
+				<div class="content-top">
+					<h2>EL TIEMPO AHORA</h2>
+					<h3>Minima</h3>
+					<p id="minima0">···</p>
+					<h3>Maxima</h3>
+					<p id="maxima0">···</p>		
+					<h4 id="fecha0">···cargando fecha···</h4>
+				</div>
+				<div class="content-bottom">
+					<h4 id="dia0">cargando datos</h4>
+					<img id="iconodia0" src="iconos/0.png">
+					<h4 id="noche0">cargando datos</h4> 
+					<img id="icononoche0" src="iconos/0.png">
+					<h4 id="dias0">dia cargando···</h4>
+
+				</div>									
+			</div>
 	
-	<section>
-		<div class="select">
-			<select id="selected" onclick="tiempo();">
-				<option value="307297">Barcelona</option>
-				<option value="308526">Madrid</option>
-				<option value="2330265">Sevilla</option>
-				<option value="309382">Bilbao</option>
-				<option value="307720">Badajoz</option>
-				<option value="36300">Santa Cruz de la Sierra</option>
-				<option value="32544">Chuquisaca</option>
-				<option value="33655">La Paz</option>
-				
-			</select>
-		</div>
-		<div class="content primero">
-			<h2>EL TIEMPO AHORA</h2>
-			<h3>Minima</h3>
-			<p id="minima0">···</p>
-			<h3>Maxima</h3>
-			<p id="maxima0">···</p>
+			<div class="content segundo">
+				<div class="content-top">
+					<h2>EL TIEMPO AHORA</h2>
+					<h3>Minima</h3>
+					<p id="minima1">···</p>
+					<h3>Maxima</h3>
+					<p id="maxima1">···</p>		
+					<h4 id="fecha1">···cargando fecha···</h4>
+				</div>
+				<div class="content-bottom">
+					<h4 id="dia1">cargando datos</h4>
+					<img id="iconodia1" src="iconos/0.png">
+					<h4 id="noche1">cargando datos</h4> 
+					<img id="icononoche1" src="iconos/0.png">
+					<h4 id="dias1">dia cargando···</h4>
+				</div>									
+			</div>
+	
+			<div class="content tercero">
+				<div class="content-top">
+					<h2>EL TIEMPO AHORA</h2>
+					<h3>Minima</h3>
+					<p id="minima2">···</p>
+					<h3>Maxima</h3>
+					<p id="maxima2">···</p>		
+					<h4 id="fecha2">···cargando fecha···</h4>
+				</div>
+				<div class="content-bottom">
+					<h4 id="dia2">cargando datos</h4>
+					<img id="iconodia2" src="iconos/0.png">
+					<h4 id="noche2">cargando datos</h4> 
+					<img id="icononoche2" src="iconos/0.png">
+					<h4 id="dias2">dia cargando···</h4>
+				</div>									
+			</div>
+	
+	
+			<div class="content cuarto">
+				<div class="content-top">
+					<h2>EL TIEMPO AHORA</h2>
+					<h3>Minima</h3>
+					<p id="minima3">···</p>
+					<h3>Maxima</h3>
+					<p id="maxima3">···</p>
+					<h4 id="dia3">cargando datos</h4>
+					<h4 id="fecha3">···cargando fecha···</h4>	
+				</div>
+				<div class="content-bottom">
+					<img id="iconodia3" src="iconos/0.png">
+					<h4 id="noche3">cargando datos</h4> 
+					<img id="icononoche3" src="iconos/0.png">
+					<h4 id="dias3">dia cargando···</h4>
+				</div>													
+			</div>
+	
+			<div class="content quinto">
+				<div class="content-top">
+					<h2>EL TIEMPO AHORA</h2>
+					<h3>Minima</h3>
+					<p id="minima4">···</p>
+					<h3>Maxima</h3>
+					<p id="maxima4">···</p>
+					<h4 id="dia4">cargando datos</h4>		
+					<h4 id="fecha4">···cargando fecha···</h4>
+				</div>
+				<div class="content-bottom">
+					<img id="iconodia4" src="iconos/0.png">
+					<h4 id="noche4">cargando datos</h4> 
+					<img id="icononoche4" src="iconos/0.png">
+					<h4 id="dias4">dia cargando···</h4>
+				</div>									
+			</div>
+		</section>
 
-			<h4 id="fecha0">···cargando fecha···</h4>
-
-			<h4 id="dia0">cargando datos</h4>
-			<img id="iconodia0" src="iconos/0.png">
-			<h4 id="noche0">cargando datos</h4> 
-			<img id="icononoche0" src="iconos/0.png">
-			<h4 id="dias0">dia cargando···</h4>
-		</div>
-
-		<div class="content segundo">
-			<h2>EL TIEMPO AHORA</h2>
-			<h3>Minima</h3>
-			<p id="minima1">···</p>
-			<h3>Maxima</h3>
-			<p id="maxima1">···</p>
-
-			<h4 id="fecha1">···cargando fecha···</h4>
-
-			<h4 id="dia1">cargando datos</h4>
-			<img id="iconodia1" src="iconos/0.png">
-			<h4 id="noche1">cargando datos</h4> 
-			<img id="icononoche1" src="iconos/0.png">
-			<h4 id="dias1">dia cargando···</h4>
-		</div>
-
-		<div class="content tercero">
-			<h2>EL TIEMPO AHORA</h2>
-			<h3>Minima</h3>
-			<p id="minima2">···</p>
-			<h3>Maxima</h3>
-			<p id="maxima2">···</p>
-
-			<h4 id="fecha2">···cargando fecha···</h4>
-
-			<h4 id="dia2">cargando datos</h4>
-			<img id="iconodia2" src="iconos/0.png">
-			<h4 id="noche2">cargando datos</h4> 
-			<img id="icononoche2" src="iconos/0.png">
-			<h4 id="dias2">dia cargando···</h4>
-		</div>
-
-
-		<div class="content cuarto">
-			<h2>EL TIEMPO AHORA</h2>
-			<h3>Minima</h3>
-			<p id="minima3">···</p>
-			<h3>Maxima</h3>
-			<p id="maxima3">···</p>
-			<h4 id="dia3">cargando datos</h4>
-
-			<h4 id="fecha3">···cargando fecha···</h4>					
-
-			<img id="iconodia3" src="iconos/0.png">
-			<h4 id="noche3">cargando datos</h4> 
-			<img id="icononoche3" src="iconos/0.png">
-			<h4 id="dias3">dia cargando···</h4>
-		</div>
-
-		<div class="content quinto">
-			<h2>EL TIEMPO AHORA</h2>
-			<h3>Minima</h3>
-			<p id="minima4">···</p>
-			<h3>Maxima</h3>
-			<p id="maxima4">···</p>
-			<h4 id="dia4">cargando datos</h4>
-
-			<h4 id="fecha4">···cargando fecha···</h4>
-
-			<img id="iconodia4" src="iconos/0.png">
-			<h4 id="noche4">cargando datos</h4> 
-			<img id="icononoche4" src="iconos/0.png">
-			<h4 id="dias4">dia cargando···</h4>
-		</div>
-	</section>
-	<footer></footer>
+	</div>
+	
+	
+	<footer><p>jorge fiorilo cardenas</p></footer>
 </body>
 </html>
 
