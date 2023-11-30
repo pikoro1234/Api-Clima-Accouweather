@@ -1,5 +1,5 @@
 $(document).ready(function(){
-	//http://dataservice.accuweather.com/locations/v1/cities/search?apikey=WRb7k3FeSFkHFzkUDkGdK1ITLfxObTwt&q=barcelona
+	//https://dataservice.accuweather.com/locations/v1/cities/search?apikey=WRb7k3FeSFkHFzkUDkGdK1ITLfxObTwt&q=barcelona
 	tiempo();
 });	
 
@@ -19,7 +19,7 @@ function tiempo(){
 
 	/*document.getElementById("dia0").innerHTML = (dia[n]);*/
 
-	$.getJSON("http://dataservice.accuweather.com/forecasts/v1/daily/5day/"+cambio_ciudad()+"?apikey=X8cG73DUvjaHY7PI8Aurs8ZPbmjFRA6p&language=es-es&metric=true",function(data){
+	$.getJSON("https://dataservice.accuweather.com/forecasts/v1/daily/5day/"+cambio_ciudad()+"?apikey=X8cG73DUvjaHY7PI8Aurs8ZPbmjFRA6p&language=es-es&metric=true",function(data){
 		var d = new Date();//extyraccion de dia actual
 		var n = d.getDay(); //num de dia de la semana actual
 		/*var mes = d.getDate();
